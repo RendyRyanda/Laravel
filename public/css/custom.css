@@ -1,0 +1,31 @@
+.sidebar {
+    height: 100vh; /* Memastikan sidebar penuh dari atas ke bawah */
+    background-color: #00264d; /* Biru tua */
+    position: fixed; /* Memastikan sidebar tetap di tempat saat scroll */
+    width: 255px; /* Lebar sidebar */
+}
+
+.sidebar-sticky {
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+}
+
+.sidebar h4 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #004080; /* Warna hover */
+    color: white;
+}
